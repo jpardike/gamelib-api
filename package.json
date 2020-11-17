@@ -11,10 +11,11 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
-    "mongoose": "^5.9.16",
-    "nodemon": "^2.0.4"
+    "mongoose": "^5.9.16"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  },
   "repository": {
     "type": "git",
     "url": "https://git.generalassemb.ly/SF-SEI/gamelib-api.git"
