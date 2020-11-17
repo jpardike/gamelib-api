@@ -1,6 +1,6 @@
 // imports
-const express = require('express');
-const routes = require('./routes');
+const express = require("express");
+const routes = require("./routes");
 
 const port = process.env.PORT || 4000;
 const app = express();
@@ -9,7 +9,7 @@ const app = express();
 // app.use(express.json());
 
 // middleware - API routes
-app.use('/api/v1/games', routes.games);
+app.use("/api/v1/games", routes.games);
 
 // connection
 app.listen(port, () => console.log(`Server is running on port ${port}`));
